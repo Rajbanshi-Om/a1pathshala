@@ -1,0 +1,62 @@
+ .trigger {
+    padding: 0 ;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .trigger:hover {
+    color: #1890ff;
+  }
+  
+   .logo {
+     
+    height: 32px;
+    margin: 16px;
+    position: sticky;
+    top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background: rgba(255, 255, 255, 0.5);
+  }
+  
+  .site-layout .site-layout-background {
+    background: #fff;
+  }
+
+.hidescroll::-webkit-scrollbar { 
+    display: none; 
+}
+
+.headerFlex{
+    display: flex;
+    width: 100%;
+    padding: 0 24px;
+    justify-content: space-between;
+    align-items: center
+}
+.small__screen{
+  display: block;
+}
+.large__screen{
+ display: none;
+
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+ .small__screen{
+   display: none;
+ }
+ .large__screen{
+  display: block;
+}
+}
+.ant-drawer-body{
+  padding: 0;
+}
+.ant-drawer-content-wrapper{
+  width: 280px !important;
+}
